@@ -6,7 +6,7 @@ import os
 
 class SpriteObject:
     def __init__(self, game, path='sprites/static_sprites/candlebra.png', pos=(10.5, 3.5),
-                 scale=1.0, shift=0.0) -> None:
+                 scale=0.7, shift=0.27) -> None:
         self.game = game
         self.player = game.player
         self.x, self.y = pos
