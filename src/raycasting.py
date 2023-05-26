@@ -93,7 +93,7 @@ class RayCasting:
             depth *= math.cos(self.game.player.angle - ray_angle)
 
             # projection
-            proj_height = SCRENN_DIST / (depth + 0.0001)
+            proj_height = SCREEN_DIST / (depth + 0.0001)
             
             #ray casting result
             self.ray_casting_result.append((depth, proj_height, texture, offset))
